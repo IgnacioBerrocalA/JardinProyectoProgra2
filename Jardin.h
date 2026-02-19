@@ -20,5 +20,6 @@ public:
     Jardin(int ancho, int alto);
     void agregar(Figura* f);
     void mostrar();
+    ~Jardin();
 };
 #endif //JARDINPROYECTOPROGRA2_JARDIN_H
