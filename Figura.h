@@ -19,5 +19,6 @@ public:
     int get_x();
     int get_y();
     virtual void dibujar(CImg<unsigned char>& img) = 0;
+    virtual ~Figura() {}
 };
 #endif //JARDINPROYECTOPROGRA2_FIGURA_H
