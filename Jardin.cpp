@@ -17,3 +17,8 @@ void Jardin::agregar(Figura* f) {
 void Jardin::mostrar() {
     img.display("Jardin");
 }
+Jardin::~Jardin() {
+    for (int i = 0; i < figuras.size(); i++) {
+        delete figuras[i];
+    }
+}
