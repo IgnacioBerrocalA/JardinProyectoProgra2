@@ -1,9 +1,8 @@
 #include "Figura.h"
 
-Figura::Figura(int x, int y, int tamano) {
+Figura::Figura(int x, int y) {
     this->x = x;
     this->y = y;
-    this->tamano = tamano;
 }
 int Figura::get_x() {
     return x;
